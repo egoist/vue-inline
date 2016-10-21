@@ -1,0 +1,41 @@
+{
+  "name": "vue-svg-icon",
+  "version": "0.0.0",
+  "description": "Use SVG icons in Vue.",
+  "license": "MIT",
+  "repository": "egoist/vue-svg-icon",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js",
+    "build": "bili --format umd --module-name SvgIcon --exports named",
+    "example": "vbuild --dev"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/vue-svg-icon.js",
+  "keywords": [
+    "vue",
+    "inline"
+  ],
+  "devDependencies": {
+    "bili": "^0.6.3",
+    "eslint": "latest",
+    "eslint-config-egoist": "latest",
+    "jest-cli": "^15.1.1",
+    "vue": "^2.0.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "egoist/esnext"
+  }
+}
