@@ -1,6 +1,6 @@
 {
   "name": "vue-inline",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Inline anything in your Vue component.",
   "license": "MIT",
   "repository": "egoist/vue-inline",
