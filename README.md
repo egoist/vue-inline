@@ -1,4 +1,4 @@
-# vue-inline [![NPM version](https://img.shields.io/npm/v/vue-svg-icon.svg?style=flat-square)](https://npmjs.com/package/vue-svg-icon) [![NPM downloads](https://img.shields.io/npm/dm/vue-svg-icon.svg?style=flat-square)](https://npmjs.com/package/vue-svg-icon) [![Build Status](https://img.shields.io/circleci/project/egoist/vue-svg-icon/master.svg?style=flat-square)](https://circleci.com/gh/egoist/vue-svg-icon)
+# vue-inline [![NPM version](https://img.shields.io/npm/v/vue-inline.svg?style=flat-square)](https://npmjs.com/package/vue-inline) [![NPM downloads](https://img.shields.io/npm/dm/vue-inline.svg?style=flat-square)](https://npmjs.com/package/vue-inline) [![Build Status](https://img.shields.io/circleci/project/egoist/vue-inline/master.svg?style=flat-square)](https://circleci.com/gh/egoist/vue-inline)
 
 Inline anything in your Vue component, like string / component / images et al
 
