@@ -7,9 +7,7 @@ const makeComponent = (data = {}) => ({
       required: true
     }
   },
-  render: (h, ctx) => {
-    return h('span', ctx.data, data[ctx.props.name])
-  }
+  render: (h, ctx) => h('span', ctx.data, data[ctx.props.name])
 })
 
 export default (Vue, {data}) => Vue.component('inline', makeComponent(data))
