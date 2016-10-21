@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "eslint src/*.js",
-    "build": "bili --format umd --module-name SvgIcon --exports named",
+    "build": "bili --format umd --module-name VueInline --exports named",
     "example": "vbuild --dev"
   },
   "files": [
