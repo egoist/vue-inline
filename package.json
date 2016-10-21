@@ -1,7 +1,7 @@
 {
   "name": "vue-svg-icon",
   "version": "0.0.0",
-  "description": "Use SVG icons in Vue.",
+  "description": "Inline anything in your Vue component.",
   "license": "MIT",
   "repository": "egoist/vue-svg-icon",
   "author": {
