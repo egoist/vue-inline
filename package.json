@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "jest && eslint *.js",
+    "test": "eslint src/*.js",
     "build": "bili --format umd --module-name SvgIcon --exports named",
     "example": "vbuild --dev"
   },
