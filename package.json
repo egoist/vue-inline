@@ -1,9 +1,9 @@
 {
-  "name": "vue-svg-icon",
+  "name": "vue-inline",
   "version": "0.0.0",
   "description": "Inline anything in your Vue component.",
   "license": "MIT",
-  "repository": "egoist/vue-svg-icon",
+  "repository": "egoist/vue-inline",
   "author": {
     "name": "EGOIST",
     "email": "0x142857@gmail.com",
@@ -20,7 +20,7 @@
   "files": [
     "dist"
   ],
-  "main": "dist/vue-svg-icon.js",
+  "main": "dist/vue-inline.js",
   "keywords": [
     "vue",
     "inline"
