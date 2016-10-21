@@ -7,7 +7,13 @@ const makeComponent = (data = {}) => ({
       required: true
     }
   },
-  render: (h, ctx) => h('span', ctx.data, data[ctx.props.name])
+  render: (h, ctx) => {
+    const value = data[ctx.props.name]
+    if (typeof value === 'string') {
+      return h('span', {...ctx.data, domProps: {innerHTML: value}})
+    }
+    return h('span', ctx.data, value)
+  }
 })
 
 export default (Vue, {data}) => Vue.component('inline', makeComponent(data))

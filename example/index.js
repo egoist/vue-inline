@@ -5,7 +5,7 @@ import App from './App'
 Vue.use(VueInline, {
   data: {
     foo: 'inlined foo!',
-    bar: 'inlined bar!'
+    bar: 'inlined <i>bar</i>!'
   }
 })
 
