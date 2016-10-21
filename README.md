@@ -41,7 +41,7 @@ Vue.use(Inline, {
 ```js
 import {makeComponent} from 'vue-inline'
 
-const Inline = makeComponent({data})
+const Inline = makeComponent(data)
 // register `Inline` in your component
 ```
 
