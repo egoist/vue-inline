@@ -36,6 +36,15 @@ Vue.use(Inline, {
 </template>
 ```
 
+**Or register the inline component locally:**
+
+```js
+import {makeComponent} from 'vue-inline'
+
+const Inline = makeComponent({data})
+// register `Inline` in your component
+```
+
 ## Contributing
 
 1. Fork it!
