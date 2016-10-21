@@ -14,13 +14,13 @@
   },
   "scripts": {
     "test": "eslint src/*.js",
-    "build": "bili --format umd --module-name VueInline --exports named",
+    "build": "bili --format umd --format cjs --module-name VueInline --exports named",
     "example": "vbuild --dev"
   },
   "files": [
     "dist"
   ],
-  "main": "dist/vue-inline.js",
+  "main": "dist/vue-inline.common.js",
   "keywords": [
     "vue",
     "inline"
@@ -37,5 +37,8 @@
   },
   "eslintConfig": {
     "extends": "egoist/esnext"
+  },
+  "dependencies": {
+    "object-assign": "^4.1.0"
   }
 }

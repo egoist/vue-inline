@@ -1,3 +1,5 @@
+import assign from 'object-assign'
+
 const makeComponent = (data = {}) => ({
   name: 'inline',
   functional: true,
@@ -10,7 +12,7 @@ const makeComponent = (data = {}) => ({
   render: (h, ctx) => {
     const value = data[ctx.props.name]
     if (typeof value === 'string') {
-      return h('span', {...ctx.data, domProps: {innerHTML: value}})
+      return h('span', assign({domProps: {innerHTML: value}}, ctx.data))
     }
     return h('span', ctx.data, value)
   }
